@@ -9,4 +9,9 @@ class RomanNumeralsApplicationTests {
     void testWithNumberIs1() {
         assertEquals("I", RomanConvertor.convert(1));
     }
+
+    @Test
+    void testWithNumberIs2() {
+        assertEquals("II", RomanConvertor.convert(2));
+    }
 }
