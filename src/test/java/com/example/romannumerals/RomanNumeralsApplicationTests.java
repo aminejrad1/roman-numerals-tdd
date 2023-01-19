@@ -19,4 +19,12 @@ class RomanNumeralsApplicationTests {
     void testWithNumberIs3() {
         assertEquals("III", RomanConvertor.convert(3));
     }
+
+    /*
+    @Test
+    void testWithNumberIs4() { assertEquals("IV", RomanConvertor.convert(4));}
+     */
+
+    @Test
+    void testWithNumberIs4() { assertEquals("V", RomanConvertor.convert(5));}
 }
