@@ -20,10 +20,8 @@ class RomanNumeralsApplicationTests {
         assertEquals("III", RomanConvertor.convert(3));
     }
 
-    /*
     @Test
     void testWithNumberIs4() { assertEquals("IV", RomanConvertor.convert(4));}
-     */
 
     @Test
     void testWithNumberIs5() { assertEquals("V", RomanConvertor.convert(5));}
@@ -31,10 +29,8 @@ class RomanNumeralsApplicationTests {
     @Test
     void testWithNumberIs6() { assertEquals("VI", RomanConvertor.convert(6));}
 
-    /*
     @Test
     void testWithNumberIs9() { assertEquals("IX", RomanConvertor.convert(9));}
-    */
 
     @Test
     void testWithNumberIs10() { assertEquals("X", RomanConvertor.convert(10));}
