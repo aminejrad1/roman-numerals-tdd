@@ -6,7 +6,7 @@ public class RomanConvertor {
 
         if(arabic>=5) {
             romanNumeral.append("V");
-            arabic -= arabic;
+            arabic -= 5;
         }
 
         for(int i=0;i<arabic;i++) {

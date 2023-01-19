@@ -26,5 +26,8 @@ class RomanNumeralsApplicationTests {
      */
 
     @Test
-    void testWithNumberIs4() { assertEquals("V", RomanConvertor.convert(5));}
+    void testWithNumberIs5() { assertEquals("V", RomanConvertor.convert(5));}
+
+    @Test
+    void testWithNumberIs6() { assertEquals("VI", RomanConvertor.convert(6));}
 }
